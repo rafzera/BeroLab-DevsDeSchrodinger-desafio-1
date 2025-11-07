@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:burlywood;
+    padding: 10px;
+    width: 1440px;
+    height: 80px;
+}
+
+footer .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* espaço entre os containers */
+}
+
+.redes_sociais {
+    width: 136px;
+    height: 34.36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-textos {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-textos p {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.redes_sociais img {
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+}
