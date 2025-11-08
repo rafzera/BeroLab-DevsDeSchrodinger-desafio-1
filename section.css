@@ -1,0 +1,53 @@
+.sobre {
+    display: flex;
+    width: 1140px;
+    height: 496px;
+    gap: 60px;
+    background-color: #7e807f;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 170px 30px 170px;
+    
+}
+
+
+.pitch{
+    width: 500px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pitch h1 {
+    color: #FFF8DC;
+    display: block;
+    text-align: center;
+}
+
+.pitch p {
+    font-size: 16px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.imagem_pitch{
+    width: 540px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_get_started{
+    width: 240px;
+    height: 48px;
+    background-color:cadetblue;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:blueviolet;
+}

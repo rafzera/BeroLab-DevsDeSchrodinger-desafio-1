@@ -1,10 +1,13 @@
 .cabecalho{
-    background-color:burlywood;
-    padding: 10px;
+    background-color:#343635;
+    padding: 20px;
     width: 1440px;
     height: 80px;
     display: flex;
     justify-content: space-between; 
+}
+.cabecalho h1{
+    color: #FFF8DC;
 }
 
 .b {
