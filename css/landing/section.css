@@ -1,6 +1,7 @@
 html{
     background-color:#343635;
 }
+
 .sobre {
     display: flex;
     width: 100%;
@@ -46,12 +47,11 @@ html{
     align-items: center;
 }
 
-
 .the_manager{
     width: 87%;
     padding-left: 13%;
     height: 796px;
-    background-color: #666666;
+    background-color: #5c5c5c
 }
 
 .the_manager .descricao{
@@ -70,7 +70,6 @@ html{
 }
 
 .the_manager p {
-    
     font-size: 20px;
     color: #000;
     line-height: 1.6;
@@ -169,7 +168,7 @@ ul{
     padding-left: 13%;
     padding-right: 13%;
     height: 388px;
-    background-color: #666666;
+    background-color: #5c5c5c;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -188,20 +187,11 @@ ul{
     text-align: center;
 }
 
-/* Primeiro subscribe - mantenha como está */
-.subscribe:first-child {
-    flex-direction: row;
-}
 
-/* Segundo subscribe - mude para coluna */
 .subscribe:nth-child(2) {
     flex-direction: column;
     height: auto;
     gap: 15px;
-}
-
-.textos{
-    display: block;
 }
 
 .inputs {
@@ -223,7 +213,6 @@ ul{
 }
 
 .inputs input {
-    
     width: 75%;
     height: 30px;
     border: 1px solid #d0d0d0;
