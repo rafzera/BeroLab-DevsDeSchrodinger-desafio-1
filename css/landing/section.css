@@ -126,7 +126,7 @@ html{
 .todas_features h1{
     padding-top: 2%;
     margin: 0 0 0 -5;
-    color:#fdefb8;
+    color:#FFF8DC;
     font-size: 30px;
 }
 
@@ -182,7 +182,7 @@ ul{
 }
 .subscribe h1 {
     margin: 0;
-    color: #ffeda5;
+    color: #FFF8DC;
     font-size: 45px;
     text-align: center;
 }
