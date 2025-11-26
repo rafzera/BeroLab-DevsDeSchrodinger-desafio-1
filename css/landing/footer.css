@@ -2,10 +2,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color:burlywood;
-    padding: 10px;
-    width: 1440px;
+    background-color:#343635;
+    width: 100%;
     height: 80px;
 }
 
@@ -14,11 +12,12 @@ footer .cabecalho {
     justify-content: center;
     align-items: center;
     gap: 30px; /* espaço entre os containers */
+    width: 100%;
 }
 
 .redes_sociais {
     width: 136px;
-    height: 34.36px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,13 +31,19 @@ footer .cabecalho {
 
 .footer-textos p {
     margin: 0;
-    color: black;
+    color: #FFF8DC;;
     text-decoration: none;
     font-size: 14px;
 }
 
 .redes_sociais img {
     margin-top: 5px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
+a{
+    color: #FFF8DC;
+    text-decoration: none;
 }
